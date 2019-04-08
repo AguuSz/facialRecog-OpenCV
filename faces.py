@@ -3,6 +3,7 @@ import cv2
 import pickle
 
 face_cascade = cv2.CascadeClassifier("data/haarcascade_frontalface_alt2.xml")
+eye_cascade = cv2.CascadeClassifier("data/haarcascade_eye.xml")
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read("trainner.yml")
 
@@ -36,11 +37,15 @@ while (True):
         img_item = "my-image.png"
         cv2.imwrite(img_item, roi_gray)
 
+        # Realizar el triangulo
         color = (255, 0, 0)  # El color esta en BGR
         grosor = 2
         end_cord_x = x + w
         end_cord_y = y + h
         cv2.rectangle(frame, (x, y), (end_cord_x, end_cord_y), color, grosor)
+        eyes = eye_cascade.detectMultiScale(roi_gray)
+        for (ex, ey, ew, eh) in eyes:
+            cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
 
     # Muestre el frame resultado
     cv2.imshow("Frame", frame)
