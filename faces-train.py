@@ -25,10 +25,12 @@ for root, dirs, files in os.walk(image_dir):
                 label_ids[label] = current_id
                 current_id += 1
             id_ = label_ids[label]
-            #print(label_ids)
+            # print(label_ids)
 
             pil_image = Image.open(path).convert("L")  # Convierte a gris
-            image_array = np.array(pil_image, "uint8")  # Convierte a un array de numeros la img gris
+            size = (550, 550)
+            final_image = pil_image.resize(size, Image.ANTIALIAS)
+            image_array = np.array(final_image, "uint8")  # Convierte a un array de numeros la img gris
 
             faces = face_cascade.detectMultiScale(image_array, scaleFactor=1.5, minNeighbors=5)
 
@@ -41,7 +43,7 @@ for root, dirs, files in os.walk(image_dir):
 # print(x_train)
 
 with open("labels.pickle", "wb") as f:
-	pickle.dump(label_ids, f)
+    pickle.dump(label_ids, f)
 
 recognizer.train(x_train, np.array(y_labels))
 recognizer.save("trainner.yml")
