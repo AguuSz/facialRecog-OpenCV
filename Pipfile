@@ -6,9 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-numpy = "*"
+requests = "*"
 opencv-contrib-python = "*"
-pillow = "*"
+dlib = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
