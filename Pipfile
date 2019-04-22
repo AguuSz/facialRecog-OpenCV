@@ -7,8 +7,6 @@ verify_ssl = true
 
 [packages]
 requests = "*"
-opencv-contrib-python = "*"
-dlib = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
