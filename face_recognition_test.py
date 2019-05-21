@@ -67,16 +67,11 @@ while True:
 
         face_names = []
         for face_encoding in face_encodings:
-            # Mira si el rostro hace match con alguna de los rostros conocidos
+            # Mira si el rostro hace match con alguna de los rostros conocidos, sino le da el nombre de "Desconocido"
             matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
             name = "Desconocido"
 
-            ## Si se encuentra algun match en known_face_encodings, solo usa el primero
-            # if True in matches:
-            #       first_match_index = matches.index(True)
-            #       name = known_face_names[first_match_index]
-
-            # O, usa el rostro conocico con la distancia mas chica a la cara nueva
+            # Usa el rostro conocico y le da el nombre correspondiente
             face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
             best_match_index = np.argmin(face_distances)
             if matches[best_match_index]:
