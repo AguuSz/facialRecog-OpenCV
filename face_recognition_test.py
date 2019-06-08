@@ -74,6 +74,8 @@ while True:
             # Usa el rostro conocico y le da el nombre correspondiente
             face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
             best_match_index = np.argmin(face_distances)
+
+            # Funcion IF donde se le aplica el accionamiento al reconocer el rostro
             if matches[best_match_index]:
                 name = known_face_names[best_match_index]
 
