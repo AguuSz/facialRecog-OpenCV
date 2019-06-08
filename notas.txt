@@ -1,0 +1,12 @@
+# Algunas notas para tener en cuenta a la hora de seguir
+
+## Paquetes necesarios para que todo funcione correctamente:
+
+    - speech_recognition (pip install SpeechRecognition)
+    - face_recognition (https://github.com/ageitgey/face_recognition)
+    - numpy (pip install numpy)
+    - cv2 (pip install pip install opencv-contrib-python)
+
+## Componentes necesarios:
+Para seguir con el desarrollo del proyecto, es necesario comprar un motor DC de 6v y un controlador para poder utilizarlo luego en la raspberry, ademas de tambien controlarlo por medio de python. El controlador necesario para esto se lo conoce como L293D, y en mercadolibre se puede encontrar por 40 pesos.
+
