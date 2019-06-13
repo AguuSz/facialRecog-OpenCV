@@ -15,7 +15,7 @@ while True:
         audio = r.listen(source)
 
     try:
-        texto = r.recognize_google(audio)
+        texto = r.recognize_google(audio, language="en-EN")
         print("Dijiste: " + texto)
         if texto == "stop":
             print("Cerrando...")
