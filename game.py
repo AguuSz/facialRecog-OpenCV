@@ -22,7 +22,7 @@ while True:
         audio = r.listen(source)
 
     try:
-        texto = r.recognize_google(audio)
+        texto = r.recognize_google(audio, language="en-EN")
         print(texto)
 
         if texto == palabra_random:
