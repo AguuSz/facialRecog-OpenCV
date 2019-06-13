@@ -1,3 +1,6 @@
-8/07
+8/06
 - Creacion de speechRecognition.py y se empieza a querer meter un sistema de reconocimiento de voz para las personas que tengan ciertas dificultades.
--
+
+13/06
+- Actualizacion de speechRecognition_mic.py a una version estable y medianamente funcional, donde se manejan los posibles errores que pueden llegar a aparecer
+- Creacion de un juego de adivinar la palabra utilizando la voz V1.0
