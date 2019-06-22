@@ -16,7 +16,7 @@ while True:
         audio = r.listen(source)
 
     try:
-        texto = r.recognize_google(audio, language="es-ES")
+        texto = r.recognize_sphinx(audio, language="es-ES")
         print("Dijiste: " + texto)
         if texto == "cerrar programa":
             print("Cerrando...")
