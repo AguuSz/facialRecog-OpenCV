@@ -4,12 +4,15 @@
 
     - speech_recognition (pip install SpeechRecognition)
     - face_recognition (https://github.com/ageitgey/face_recognition)
-    - numpy (pip install numpy)
-    - cv2 (pip install pip install opencv-contrib-python)
+    - numpy:            pip install numpy)
+    - cv2:              pip install pip install opencv-contrib-python)
     - PyAudio (Ubuntu:  sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
                         sudo apt-get install ffmpeg libav-tools
                         sudo pip install pyaudio // Especialmente si se esta trabajando con un entorno virtual //
                Windows: pip install pyaudio)
+    - gTTS:             pip install gTTS
+    - Kivy:             pip install kivy
+    - pocketSphinx:     https://github.com/cmusphinx/pocketsphinx-python
 
 ## Componentes necesarios:
 Para seguir con el desarrollo del proyecto, es necesario comprar un motor DC de 6v y un controlador para poder utilizarlo luego en la raspberry, ademas de tambien controlarlo por medio de python. El controlador necesario para esto se lo conoce como L293D, y en mercadolibre se puede encontrar por 40 pesos.
