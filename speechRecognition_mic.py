@@ -10,14 +10,15 @@ mic = sr.Microphone()
 while True:
     with mic as source:
         # Quitar comentario de la linea de abajo cuando se este trabajando en un ambiente muy ruidoso
-        #r.adjust_for_ambient_noise(source)
+        print("Espere un segundo")
+        r.adjust_for_ambient_noise(source)
         print("Hable")
         audio = r.listen(source)
 
     try:
-        texto = r.recognize_google(audio, language="en-EN")
+        texto = r.recognize_google(audio, language="es-ES")
         print("Dijiste: " + texto)
-        if texto == "stop":
+        if texto == "cerrar programa":
             print("Cerrando...")
             break
     except sr.UnknownValueError:
