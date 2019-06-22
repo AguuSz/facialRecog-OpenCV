@@ -4,3 +4,11 @@
 13/06
 - Actualizacion de speechRecognition_mic.py a una version estable y medianamente funcional, donde se manejan los posibles errores que pueden llegar a aparecer
 - Creacion de un juego de adivinar la palabra utilizando la voz V1.0
+
+18/06
+- Instalacion de paquete Kivy, para la creacion de una GUI.
+- Se intenta utilizar un motor que funcione por streaming para asi agilizar el proceso de reconocimiento de voz. Por el momento se analiza pocketsphinx. (El archivo test.py intenta hacerlo)
+
+22/06
+- Instalacion de PocketSphinx como motor de voz. Intento que sea completamente offline.
+https://github.com/cmusphinx/pocketsphinx-python
