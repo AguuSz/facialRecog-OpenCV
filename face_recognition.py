@@ -5,9 +5,6 @@ import numpy as np
 # Empezar a capturar video de la camara web 0 (la que viene)
 video_capture = cv2.VideoCapture(0)
 
-# Cargar una imagen de prueba y aprende a reconocerla
-agus = face_recognition.load_image_file('./data_img/agus.jpeg')
-agus_encoding = face_recognition.face_encodings(agus)[0]
 
 # Cargue otra imagen de entrenamiento y que aprenda a reconocerla
 chad = face_recognition.load_image_file('./data_img/chad.jpeg')
