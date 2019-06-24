@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ascensor-para-ciegos",
+  "private_key_id": "f943c0d8d19e4c5a0393583e8f6942ee92e6a541",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDloeZ/T/vmzcvT\npn+/hd6tpvGVu7cD8Ntjd2v7nE8VXn1MKhvKI5s5M220i8a3bd7MlO0YiZZnTnnG\nyumtedXkYIU86crL7K3lI6WoUjO48ho10P2agyhEND9ftSMp3TkEfLg9yXdYWNZz\nMBiu5C7T1e0c4d6H02QXJJvbi02CcafQHcvugulHjIVagVOWESogsyK0/S3DChbD\nG5Lxpe6inj+04I3KmYtPIBonhT1xbNO+jiN0Qn2nCQoSBSidOhFIsWCOqR2T9j3T\nnHw6+5DGLd7aU5wPbbHFB/Jsm/GFAZcTdjcU9X5wHqX6H5sGaFCgDv5omZwwBrQD\nSEOpO+T7AgMBAAECggEAHLZeLkwPeMABvPCkJ4vzGG535ZuHmkALBohfoaHdR5Q9\ngYEAYYmLNp9GF92kVrovsg/rB3borfkjg+ZKSq0hwAELl965wz7QTYbkB0RkADuR\naGo904yTw9dulyZ8g5cMMpHvrZYbzJmrEtMQOwoACu/ESqi5XO1jJfunW0+zPNyB\nl1bHgz20/E3LhgTrsRFKRgs45qlOE4knBykGpDz5XM1gaevgvsvr0ozJAbCIyYvh\nACyA7SaP8RYmULRO0mqu485yHnWqplvoG5T2IhnJYvSqqpaMQfYo3cV4ziUCZ9F0\ni8g/W5EVrJT+DoKHjTnJaFLqjt/gf8mAzKI8+tsznQKBgQDz3EqDe07jO12DSmmc\nT5dlIr1vvDaBDG3IPSf9C2WOwB5hj0yY9B090t4IjXBEPJGk3eAuaTyJbuGdBiLM\n0lyRTQ2QHVY9HM+soFK8Ui6QBU7qvFSnQCrK47vWVdIM6vg5qdBWTvOlyak9clgD\nJFX9FHaUIZKQXRA3wLmwM4puLwKBgQDxEEoYWswsWRrBBqjmPuaBxIo3z1RDwBW8\nhtsVZi10jqyA7nntiaj5CxYMlqzphW+O6MFKuxhKDEIfvxdfcMh/K8leGwNVzcdY\n58cYZWPpEMhI6VVbSy3h5j0Ep7AOOCof8Iz9mT3OCfRNgd9diJacJQnWXEHoPG46\nNp81QEwu9QKBgDjDY1jdoAxGqkrATHsFD9GL15qlre42DWvZyHAfcgFbePbumz7T\nO+dDKUnGWoaXrrM4rlE/T8cR11RstDcHFGMCE5EjMwrApRqiqv+JBauigK8lLXNM\n/WkCv5txmJZHL4aEn6kncZF6snlKH3CDybxCQiPS+MG/1+GSa+a26JcjAoGAdYsP\n1hhP/j/kf8KTkNGS7Cu9icEawX5kGu1W3nRYLcFz89pUsbKyJd11/uVpouRhpTlx\nJtNb4J9hjsFK0EraOMhNBAn/8lLIpV0/A3JM6VQ5lPPRnxZlZQUzM5Xgjs5sG+7b\nkLysGk9YRILTO3Rim/ijd1a8/FSbGt+PehPEEhECgYEAz6CzxGa2PLP/rXJmLZ6k\nyWPPLKXX1RJjunG9MBmKsN4Hv/xJrQGLujA9ScdkgH1Rybg27C5jmg3oYlUaQUF/\nX8tRCatAvmoyfr3v2hAj66Z1KJuzekzJxhYRTkJyrQfjmjMG8N8K+4WrkxrOgNKT\nB+XrViRv1mgufD/5N7iD6mo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "starting-account-5z88gh8kzxm7@ascensor-para-ciegos.iam.gserviceaccount.com",
+  "client_id": "112764185946549897044",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/starting-account-5z88gh8kzxm7%40ascensor-para-ciegos.iam.gserviceaccount.com"
+}
