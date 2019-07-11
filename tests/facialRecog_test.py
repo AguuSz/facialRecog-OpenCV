@@ -1,10 +1,22 @@
 import face_recognition
 import cv2
 import numpy as np
+import os
 
 # Empezar a capturar video de la camara web 0 (la que viene)
 video_capture = cv2.VideoCapture(0)
 
+# Que revise cuantos archivos hay dentro de la carpeta
+cantidadImagenes = len(os.listdir("./data_img"))
+nombreArchivos = os.listdir('./data_img')
+
+for i in cantidadImagenes:
+    cont = 0
+    archivo = nombreArchivos[cont]
+
+    contFace = face_recognition.load_image_file(archivo)
+    contFace_encoding = face_recognition.face_encoding(contFace)[0]
+    cont =+ 1
 
 # Cargue otra imagen de entrenamiento y que aprenda a reconocerla
 chad = face_recognition.load_image_file('./data_img/chad.jpeg')
@@ -25,14 +37,12 @@ valen_encoding = face_recognition.face_encodings(valen)[0]
 
 # Crear una array con los encodings de las caras y sus nombres
 known_face_encodings = [
-    agus_encoding,
     chad_encoding,
     will_encoding,
     marcos_encoding,
     valen_encoding
 ]
 known_face_names = [
-    "Agus",
     "Chad",
     "Will",
     "Marcos",
